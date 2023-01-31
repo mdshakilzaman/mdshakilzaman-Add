@@ -10,7 +10,12 @@ public class Add {
      * @param b second number to be added.
      * @return the sum of a and b.
      */
-    public int addNumbers(int a, int b){
-        return 0;
+    public static void main(String[] args) {
+        int a = 5, b = 5;
+        int res = addNumbers(a, b);
+        System.out.println(res);
+    }
+    public static int addNumbers(int a, int b){
+        return a + b;
     }
 }
